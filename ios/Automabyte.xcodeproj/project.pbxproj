@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2FE40E27050342006DA4C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2FE40D27050342006DA4C3 /* AppDelegate.m */; };
+		1A2FE41127050342006DA4C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2FE41027050342006DA4C3 /* SceneDelegate.m */; };
+		1A2FE41427050342006DA4C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2FE41327050342006DA4C3 /* ViewController.m */; };
+		1A2FE41727050342006DA4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FE41527050342006DA4C3 /* Main.storyboard */; };
+		1A2FE41927050345006DA4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FE41827050345006DA4C3 /* Assets.xcassets */; };
+		1A2FE41C27050345006DA4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FE41A27050345006DA4C3 /* LaunchScreen.storyboard */; };
+		1A2FE41F27050345006DA4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2FE41E27050345006DA4C3 /* main.m */; };
+		1A2FE42927050345006DA4C3 /* AutomabyteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2FE42827050345006DA4C3 /* AutomabyteTests.m */; };
+		1A2FE43427050345006DA4C3 /* AutomabyteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2FE43327050345006DA4C3 /* AutomabyteUITests.m */; };
+		1A2FE4492705039D006DA4C3 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2FE4482705039D006DA4C3 /* NotificationService.m */; };
+		1A2FE44D2705039D006DA4C3 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A2FE4452705039D006DA4C3 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A2FE42527050345006DA4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2FE40127050342006DA4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2FE40827050342006DA4C3;
+			remoteInfo = Automabyte;
+		};
+		1A2FE43027050345006DA4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2FE40127050342006DA4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2FE40827050342006DA4C3;
+			remoteInfo = Automabyte;
+		};
+		1A2FE44B2705039D006DA4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2FE40127050342006DA4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2FE4442705039D006DA4C3;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A2FE4512705039D006DA4C3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A2FE44D2705039D006DA4C3 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A2FE40927050342006DA4C3 /* Automabyte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automabyte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2FE40C27050342006DA4C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A2FE40D27050342006DA4C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A2FE40F27050342006DA4C3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1A2FE41027050342006DA4C3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1A2FE41227050342006DA4C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A2FE41327050342006DA4C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A2FE41627050342006DA4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A2FE41827050345006DA4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2FE41B27050345006DA4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A2FE41D27050345006DA4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2FE41E27050345006DA4C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A2FE42427050345006DA4C3 /* AutomabyteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomabyteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2FE42827050345006DA4C3 /* AutomabyteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomabyteTests.m; sourceTree = "<group>"; };
+		1A2FE42A27050345006DA4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2FE42F27050345006DA4C3 /* AutomabyteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomabyteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2FE43327050345006DA4C3 /* AutomabyteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomabyteUITests.m; sourceTree = "<group>"; };
+		1A2FE43527050345006DA4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2FE4452705039D006DA4C3 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2FE4472705039D006DA4C3 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		1A2FE4482705039D006DA4C3 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		1A2FE44A2705039D006DA4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2FE40627050342006DA4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE42127050345006DA4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE42C27050345006DA4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE4422705039D006DA4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2FE40027050342006DA4C3 = {
+			isa = PBXGroup;
+			children = (
+				1A2FE40B27050342006DA4C3 /* Automabyte */,
+				1A2FE42727050345006DA4C3 /* AutomabyteTests */,
+				1A2FE43227050345006DA4C3 /* AutomabyteUITests */,
+				1A2FE4462705039D006DA4C3 /* OneSignalNotificationServiceExtension */,
+				1A2FE40A27050342006DA4C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A2FE40A27050342006DA4C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2FE40927050342006DA4C3 /* Automabyte.app */,
+				1A2FE42427050345006DA4C3 /* AutomabyteTests.xctest */,
+				1A2FE42F27050345006DA4C3 /* AutomabyteUITests.xctest */,
+				1A2FE4452705039D006DA4C3 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A2FE40B27050342006DA4C3 /* Automabyte */ = {
+			isa = PBXGroup;
+			children = (
+				1A2FE40C27050342006DA4C3 /* AppDelegate.h */,
+				1A2FE40D27050342006DA4C3 /* AppDelegate.m */,
+				1A2FE40F27050342006DA4C3 /* SceneDelegate.h */,
+				1A2FE41027050342006DA4C3 /* SceneDelegate.m */,
+				1A2FE41227050342006DA4C3 /* ViewController.h */,
+				1A2FE41327050342006DA4C3 /* ViewController.m */,
+				1A2FE41527050342006DA4C3 /* Main.storyboard */,
+				1A2FE41827050345006DA4C3 /* Assets.xcassets */,
+				1A2FE41A27050345006DA4C3 /* LaunchScreen.storyboard */,
+				1A2FE41D27050345006DA4C3 /* Info.plist */,
+				1A2FE41E27050345006DA4C3 /* main.m */,
+			);
+			path = Automabyte;
+			sourceTree = "<group>";
+		};
+		1A2FE42727050345006DA4C3 /* AutomabyteTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A2FE42827050345006DA4C3 /* AutomabyteTests.m */,
+				1A2FE42A27050345006DA4C3 /* Info.plist */,
+			);
+			path = AutomabyteTests;
+			sourceTree = "<group>";
+		};
+		1A2FE43227050345006DA4C3 /* AutomabyteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A2FE43327050345006DA4C3 /* AutomabyteUITests.m */,
+				1A2FE43527050345006DA4C3 /* Info.plist */,
+			);
+			path = AutomabyteUITests;
+			sourceTree = "<group>";
+		};
+		1A2FE4462705039D006DA4C3 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1A2FE4472705039D006DA4C3 /* NotificationService.h */,
+				1A2FE4482705039D006DA4C3 /* NotificationService.m */,
+				1A2FE44A2705039D006DA4C3 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2FE40827050342006DA4C3 /* Automabyte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2FE43827050345006DA4C3 /* Build configuration list for PBXNativeTarget "Automabyte" */;
+			buildPhases = (
+				1A2FE40527050342006DA4C3 /* Sources */,
+				1A2FE40627050342006DA4C3 /* Frameworks */,
+				1A2FE40727050342006DA4C3 /* Resources */,
+				1A2FE4512705039D006DA4C3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2FE44C2705039D006DA4C3 /* PBXTargetDependency */,
+			);
+			name = Automabyte;
+			productName = Automabyte;
+			productReference = 1A2FE40927050342006DA4C3 /* Automabyte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A2FE42327050345006DA4C3 /* AutomabyteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2FE43B27050345006DA4C3 /* Build configuration list for PBXNativeTarget "AutomabyteTests" */;
+			buildPhases = (
+				1A2FE42027050345006DA4C3 /* Sources */,
+				1A2FE42127050345006DA4C3 /* Frameworks */,
+				1A2FE42227050345006DA4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2FE42627050345006DA4C3 /* PBXTargetDependency */,
+			);
+			name = AutomabyteTests;
+			productName = AutomabyteTests;
+			productReference = 1A2FE42427050345006DA4C3 /* AutomabyteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A2FE42E27050345006DA4C3 /* AutomabyteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2FE43E27050345006DA4C3 /* Build configuration list for PBXNativeTarget "AutomabyteUITests" */;
+			buildPhases = (
+				1A2FE42B27050345006DA4C3 /* Sources */,
+				1A2FE42C27050345006DA4C3 /* Frameworks */,
+				1A2FE42D27050345006DA4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2FE43127050345006DA4C3 /* PBXTargetDependency */,
+			);
+			name = AutomabyteUITests;
+			productName = AutomabyteUITests;
+			productReference = 1A2FE42F27050345006DA4C3 /* AutomabyteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1A2FE4442705039D006DA4C3 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2FE44E2705039D006DA4C3 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				1A2FE4412705039D006DA4C3 /* Sources */,
+				1A2FE4422705039D006DA4C3 /* Frameworks */,
+				1A2FE4432705039D006DA4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 1A2FE4452705039D006DA4C3 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2FE40127050342006DA4C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Automabyte;
+				TargetAttributes = {
+					1A2FE40827050342006DA4C3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1A2FE42327050345006DA4C3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1A2FE40827050342006DA4C3;
+					};
+					1A2FE42E27050345006DA4C3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1A2FE40827050342006DA4C3;
+					};
+					1A2FE4442705039D006DA4C3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A2FE40427050342006DA4C3 /* Build configuration list for PBXProject "Automabyte" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A2FE40027050342006DA4C3;
+			productRefGroup = 1A2FE40A27050342006DA4C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2FE40827050342006DA4C3 /* Automabyte */,
+				1A2FE42327050345006DA4C3 /* AutomabyteTests */,
+				1A2FE42E27050345006DA4C3 /* AutomabyteUITests */,
+				1A2FE4442705039D006DA4C3 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2FE40727050342006DA4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2FE41C27050345006DA4C3 /* LaunchScreen.storyboard in Resources */,
+				1A2FE41927050345006DA4C3 /* Assets.xcassets in Resources */,
+				1A2FE41727050342006DA4C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE42227050345006DA4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE42D27050345006DA4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE4432705039D006DA4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2FE40527050342006DA4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2FE41427050342006DA4C3 /* ViewController.m in Sources */,
+				1A2FE40E27050342006DA4C3 /* AppDelegate.m in Sources */,
+				1A2FE41F27050345006DA4C3 /* main.m in Sources */,
+				1A2FE41127050342006DA4C3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE42027050345006DA4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2FE42927050345006DA4C3 /* AutomabyteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE42B27050345006DA4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2FE43427050345006DA4C3 /* AutomabyteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FE4412705039D006DA4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2FE4492705039D006DA4C3 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A2FE42627050345006DA4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2FE40827050342006DA4C3 /* Automabyte */;
+			targetProxy = 1A2FE42527050345006DA4C3 /* PBXContainerItemProxy */;
+		};
+		1A2FE43127050345006DA4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2FE40827050342006DA4C3 /* Automabyte */;
+			targetProxy = 1A2FE43027050345006DA4C3 /* PBXContainerItemProxy */;
+		};
+		1A2FE44C2705039D006DA4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2FE4442705039D006DA4C3 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 1A2FE44B2705039D006DA4C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A2FE41527050342006DA4C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2FE41627050342006DA4C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A2FE41A27050345006DA4C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2FE41B27050345006DA4C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A2FE43627050345006DA4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A2FE43727050345006DA4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A2FE43927050345006DA4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KL3A387W42;
+				INFOPLIST_FILE = Automabyte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.automabyte.app.Automabyte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A2FE43A27050345006DA4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KL3A387W42;
+				INFOPLIST_FILE = Automabyte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.automabyte.app.Automabyte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A2FE43C27050345006DA4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KL3A387W42;
+				INFOPLIST_FILE = AutomabyteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.automabyte.app.AutomabyteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automabyte.app/Automabyte";
+			};
+			name = Debug;
+		};
+		1A2FE43D27050345006DA4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KL3A387W42;
+				INFOPLIST_FILE = AutomabyteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.automabyte.app.AutomabyteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automabyte.app/Automabyte";
+			};
+			name = Release;
+		};
+		1A2FE43F27050345006DA4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KL3A387W42;
+				INFOPLIST_FILE = AutomabyteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.automabyte.app.AutomabyteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Automabyte;
+			};
+			name = Debug;
+		};
+		1A2FE44027050345006DA4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KL3A387W42;
+				INFOPLIST_FILE = AutomabyteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.automabyte.app.AutomabyteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Automabyte;
+			};
+			name = Release;
+		};
+		1A2FE44F2705039D006DA4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KL3A387W42;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.automabyte.app.Automabyte.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A2FE4502705039D006DA4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KL3A387W42;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.automabyte.app.Automabyte.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2FE40427050342006DA4C3 /* Build configuration list for PBXProject "Automabyte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2FE43627050345006DA4C3 /* Debug */,
+				1A2FE43727050345006DA4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2FE43827050345006DA4C3 /* Build configuration list for PBXNativeTarget "Automabyte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2FE43927050345006DA4C3 /* Debug */,
+				1A2FE43A27050345006DA4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2FE43B27050345006DA4C3 /* Build configuration list for PBXNativeTarget "AutomabyteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2FE43C27050345006DA4C3 /* Debug */,
+				1A2FE43D27050345006DA4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2FE43E27050345006DA4C3 /* Build configuration list for PBXNativeTarget "AutomabyteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2FE43F27050345006DA4C3 /* Debug */,
+				1A2FE44027050345006DA4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2FE44E2705039D006DA4C3 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2FE44F2705039D006DA4C3 /* Debug */,
+				1A2FE4502705039D006DA4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A2FE40127050342006DA4C3 /* Project object */;
+}
